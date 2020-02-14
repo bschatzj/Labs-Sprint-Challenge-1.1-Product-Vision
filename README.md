@@ -29,13 +29,23 @@ Copy and paste these prompts into a `Google Doc`. Steps on how to create a googl
 
 Describe the conversations you had this sprint with your product owner(s) and team.
 
+I think the team as a whole had a really good conversation. We had got a really solid tech stack agreed upon and also seem to have a good view of what the product is going to be. The conversation with the stack holder was great they knew exactly what they wanted from a product and gave us exactly what was the highest priority which was very helpful for us to flesh out our PVD. 
+
 - Describe the product and features you plan to deliver.
+Our plan is to deliver a big dashboard for the three admins. They will be able to log in users data and access it much quicker than their currenct situation. Once we get this done we will try to also make an outward facing sight as well for users to set up profiles.
+
 - How did these conversations determine the features you will deliver during Labs?
+The stakeholders told us about how long it was taking for them to sign up new users and that is currently their biggest pain point. That was the first thing that we wanted to fix and this was the solution we came up with to fix their current issues.
+
 - How did your discussions change the way you viewed the product?
+
+We originally viewed the product as more of a social outwardly facing app that was going to for all the user profiles. Now that we understand their problem better we view it more of an inwardly facing app for just the administration.
 
 ### Prompt 2
 
 Describe the technical or design discussions that shaped the long-term product vision.
+
+We have decided on using React for the front end because it is a very veratile technology that we all feel confident in using. Redux will definitely be used to help us manage a lot of state that we use. We all think that materialUI will be a good library from styling to just give a nice proffesional look on our app. For our back end we still haven't seen the shape of the data that we will be putting in and that could change what technologies we use. As of now we are leaning towards PorstgreSQL. This is just a very good standard relational database. If the data they need to enter isn't what we expect. We may switch over to a MongoDB to accept the data better. We also decided to go with Heroku becasue it is just a lighter faster way to deploy and it is not really necesary to have an AWS for this small of a deployment.
 
 - **For data scientists and engineers:** Describe the technologies that you will use to build this product. Why do they fit the product vision?
 - **For UX designers:** Describe the questions that you are asking during user research. Why have you selected these questions to ask? What is the problem your team is trying to solve?
